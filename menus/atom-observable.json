@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-observable",
+        "command": "atom-observable:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-observable",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-observable:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

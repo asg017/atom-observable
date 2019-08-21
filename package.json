@@ -1,0 +1,18 @@
+{
+  "name": "atom-observable",
+  "main": "./lib/atom-observable",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-observable:toggle"
+  },
+  "repository": "https://github.com/atom/atom-observable",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
