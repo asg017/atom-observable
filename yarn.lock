@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@observablehq/inspector@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@observablehq/inspector/-/inspector-3.1.0.tgz#4726f9aabc58aa410a4ba27adf89b180fa9a302b"
+  integrity sha512-DOx40q05QZdQnYpUsKch+8raWGmKSBh5DIAinQRoK+ij7Eq/PKpHJvNrrhThF4+2b/qViUhZGOwMLPhlC2qMzg==
+  dependencies:
+    esm "^3.0.84"
+
 "@observablehq/parser@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@observablehq/parser/-/parser-1.2.1.tgz#e55460d6de0a419235e918f3b9f35659297eeae3"
@@ -10,6 +17,24 @@
     acorn "^6.0.4"
     acorn-bigint "^0.3.1"
     acorn-walk "^6.1.1"
+
+"@observablehq/runtime@^4.3.3":
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/@observablehq/runtime/-/runtime-4.3.3.tgz#5970c79b26adb2f6806e0c3a322e3af009b86844"
+  integrity sha512-g8z6bGNJLgnhiN3sgDcG5/+MkyDtncLuoCyXR9DqIPIb3cOQq/5fD3KGAZ2/Glu4uCsYykBdBuXL2RF6rJLRuA==
+  dependencies:
+    "@observablehq/inspector" "^3.1.0"
+    "@observablehq/stdlib" "^3.0.0"
+    esm "^3.0.84"
+
+"@observablehq/stdlib@^3.0.0":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@observablehq/stdlib/-/stdlib-3.0.4.tgz#12be3fa9ffc611608e85f39d04f920ed1d119acd"
+  integrity sha512-5550y5NFIZMnXoq1s9hdE8rEN7cn55TrZoGABCxmL/N9sHwHlmw/CPDWTb60NzBcQpNfL1lYlCIAZryal8rfrg==
+  dependencies:
+    d3-require "^1.2.0"
+    esm "^3.0.84"
+    marked "https://github.com/observablehq/marked.git#94c6b946f462fd25db4465d71a6859183f86c57f"
 
 acorn-bigint@^0.3.1:
   version "0.3.1"
@@ -25,6 +50,16 @@ acorn@^6.0.4:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
   integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+
+d3-require@^1.2.0:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/d3-require/-/d3-require-1.2.3.tgz#65a1c2137e69c5c442f1ca2a04f72a3965124c16"
+  integrity sha512-zfat3WTZRZmh7jCrTIhg4zZvivA0DZvez8lZq0JwYG9aW8LcSUFO4eiPnL5F2MolHcLE8CLfEt06sPP8N7y3AQ==
+
+esm@^3.0.84:
+  version "3.2.25"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.2.25.tgz#342c18c29d56157688ba5ce31f8431fbb795cc10"
+  integrity sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==
 
 fs-extra@^8.1.0:
   version "8.1.0"
@@ -46,6 +81,10 @@ jsonfile@^4.0.0:
   integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
+
+"marked@https://github.com/observablehq/marked.git#94c6b946f462fd25db4465d71a6859183f86c57f":
+  version "0.3.12"
+  resolved "https://github.com/observablehq/marked.git#94c6b946f462fd25db4465d71a6859183f86c57f"
 
 universalify@^0.1.0:
   version "0.1.2"
