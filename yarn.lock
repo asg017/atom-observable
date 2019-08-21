@@ -2,6 +2,30 @@
 # yarn lockfile v1
 
 
+"@observablehq/parser@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@observablehq/parser/-/parser-1.2.1.tgz#e55460d6de0a419235e918f3b9f35659297eeae3"
+  integrity sha512-5RJhh4nsET6l+Ky6ZT0Qa+ts4KZ6L0cbpLGZxxnwICc6eIDA2/UftIhlp7cL3ZYUQuaP8BgCNV/3c8Z9+WaOnQ==
+  dependencies:
+    acorn "^6.0.4"
+    acorn-bigint "^0.3.1"
+    acorn-walk "^6.1.1"
+
+acorn-bigint@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/acorn-bigint/-/acorn-bigint-0.3.1.tgz#edb40a414dcaf5a09c2933db6bed79454b3ff46a"
+  integrity sha512-WT9LheDC4/d/sD/jgC6L5UMq4U9X3KNMy0JrXp/MdJL83ZqcuPQuMkj50beOX0dMub8IoZUYycfN7bIVZuU5zg==
+
+acorn-walk@^6.1.1:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/acorn-walk/-/acorn-walk-6.2.0.tgz#123cb8f3b84c2171f1f7fb252615b1c78a6b1a8c"
+  integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
+
+acorn@^6.0.4:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
+  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+
 fs-extra@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz#49d43c45a88cd9677668cb7be1b46efdb8d2e1c0"
