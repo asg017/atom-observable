@@ -3,15 +3,22 @@ md`# Hello!`
 md`Hows it going boi`
 
 {
-  while(true) {
-    yield Math.random();
+  let i = 1;
+  while(i < 100) {
+    yield Promises.tick(100, `i ${i++}`);
   }
 }
 
-html`<div style="height: 200px; background-image: linear-gradient(to right, blue, yellow);">yay`
+md`and it shows up here! \`${test}\``
+
+viewof test = html`<input type="text">`
+
+import {} from 'asdf'
+
+html`<div style="height: 40px; background-image: linear-gradient(to right, blue, yellow);">yay`
 
 
-function () {
+function yeehaw() {
   return 'yee haw'
 }
 
