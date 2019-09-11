@@ -19,7 +19,9 @@ map
 
 canvas
 
-import {canvas} with {} from "@mbostock/connected-particles-iii"
+height = 300
+
+import {canvas} with {height} from "@mbostock/connected-particles-iii"
 
 viewof x = textarea('woah')
 
