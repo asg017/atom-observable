@@ -2,6 +2,28 @@ md`# Hello!`
 
 md`Hows it going boi`
 
+
+oh = md`x=${x}`
+
+
+import {textarea} from '@jashkenas/inputs'
+
+import {ramp} from "@mbostock/color-ramp"
+
+ramp(t => `hsl(${t * 360}, 100%, 50%)`)
+
+import {map} from "@d3/interrupted-sinu-mollweide"
+
+
+map
+
+canvas
+
+import {canvas} with {} from "@mbostock/connected-particles-iii"
+
+viewof x = textarea('woah')
+
+
 {
   let i = 1;
   while(i < 100) {
@@ -9,11 +31,11 @@ md`Hows it going boi`
   }
 }
 
-md`and it shows up here! \`${test}\``
+md`and it shows up here! \`${test} \``
 
-viewof test = html`<input type="text">`
+viewof test = html`<input type="text" value="default">`
 
-import {} from 'asdf'
+
 
 html`<div style="height: 40px; background-image: linear-gradient(to right, blue, yellow);">yay`
 
