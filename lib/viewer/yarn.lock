@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@alex.garcia/unofficial-observablehq-compiler@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@alex.garcia/unofficial-observablehq-compiler/-/unofficial-observablehq-compiler-0.0.4.tgz#8c009200f1751780ff6e23615daae42bd9422664"
+  integrity sha512-GPHMVIjHqatYyPNVMJPsQDvYkC6BjvdUt8ATQoWQSsPbaKf2WDRccOZou0PYilKmkUiu1LzaAGyJqiX+enZBMQ==
+  dependencies:
+    "@observablehq/parser" "^1.2.1"
+    "@observablehq/runtime" "^4.4.4"
+
 "@observablehq/inspector@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@observablehq/inspector/-/inspector-3.1.0.tgz#4726f9aabc58aa410a4ba27adf89b180fa9a302b"
@@ -22,6 +30,15 @@
   version "4.4.3"
   resolved "https://registry.yarnpkg.com/@observablehq/runtime/-/runtime-4.4.3.tgz#c0aca6d376fafd8e5ad5168efb84f5a1f0ffe05c"
   integrity sha512-sjG9i3js5Ayd5bLVjxejADxb3Apw1V5lnw6JX8Nz5fKC76Nk/TTte2ItWCZOyqAom5A8HKdEzIDIJ5TNy3w/eQ==
+  dependencies:
+    "@observablehq/inspector" "^3.1.0"
+    "@observablehq/stdlib" "^3.0.0"
+    esm "^3.0.84"
+
+"@observablehq/runtime@^4.4.4":
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/@observablehq/runtime/-/runtime-4.4.4.tgz#e799204fe04ae0eaf40fe7a65dde47f31e10c578"
+  integrity sha512-lHfXGlNfbd/kYV8weO4r4O7jTlmEWFmYgYEGmktiMkcWlvOHdGRmXUf6NxmdbJbZFbGVwxvcV2cQgpUwz/3xBg==
   dependencies:
     "@observablehq/inspector" "^3.1.0"
     "@observablehq/stdlib" "^3.0.0"

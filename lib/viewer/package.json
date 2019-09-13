@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@alex.garcia/unofficial-observablehq-compiler": "^0.0.4",
     "@observablehq/parser": "^1.2.1",
     "@observablehq/runtime": "^4.4.3"
   },
