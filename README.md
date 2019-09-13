@@ -10,7 +10,7 @@ Render full Observable notebooks in Atom!
 
 ## Usage
 
-When you have a "notebook" file open, just press `Alt+Ctrl+O` (or `Packages` -> `atom-observable` -> `Toggle`), and a preview will popup, with the rendered component.
+When you have a "notebook" file open, just press `Alt+Ctrl+O` (or `Packages` -> `atom-observable` -> `Toggle`), and a preview will popup, with the rendered notebook.
 
 Once the preview is open, whenever you save the file, the entire preview will reload. It's not as cool of a dev experience as observablehq.com is, but it's something!
 
