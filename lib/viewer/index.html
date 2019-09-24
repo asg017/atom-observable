@@ -7,9 +7,30 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@3/dist/inspector.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css"
+      integrity="sha256-HbgiGHMLxHZ3kkAiixyvnaaZFNjNWLYKD/QG6PWaQPc="
+      crossorigin="anonymous"
+    />
+    <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container markdown-body">
       <div id="main"></div>
     </div>
     <script type="text/javascript" src="./bundle.js"></script>

@@ -37,7 +37,7 @@ md`Hello ${name}!`
 import {chart} from "@d3/bar-chart"
 ```
 
-Keep in mind - not all javascript files are valid Observable syntax. [`example.notebook.js`](./example.notebook.js) is a pretty verbose example of what could work.
+Keep in mind - not all javascript files are valid Observable syntax. [`example_notebooks`](./example_notebooks) has a few examples of what could work.
 
 ## How it works
 
