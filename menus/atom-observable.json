@@ -15,7 +15,7 @@
           "label": "atom-observable",
           "submenu": [
             {
-              "label": "ToggleCC",
+              "label": "Toggle",
               "command": "atom-observable:toggle"
             }
           ]
